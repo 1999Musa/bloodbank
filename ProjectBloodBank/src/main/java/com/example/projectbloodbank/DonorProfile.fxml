@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" >
+<!--    xmlns:fx="http://javafx.com/fxml/1">-->
+<!--   <children>-->
+      <Label text="Name" />
+      <Label text="Phone:" />
+      <Label layoutX="10.0" layoutY="10.0" text="Mail:" />
+      <Label layoutX="10.0" layoutY="10.0" text="Address:" />
+      <Label layoutX="10.0" layoutY="10.0" text="Blood Group" />
+      <Label layoutX="10.0" layoutY="10.0" text="Last Donation" />
+      <Label layoutX="10.0" layoutY="10.0" text="Next Donation Can be done on" />
+      <TableView prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn editable="false" prefWidth="75.0" style="-fx-background-color: white;" text="Name" />
+          <TableColumn editable="false" prefWidth="75.0" style="-fx-background-color: white;" text="Phone" />
+            <TableColumn editable="false" prefWidth="163.0" text="E-Mail" />
+            <TableColumn editable="false" prefWidth="87.0" text="Address" />
+            <TableColumn editable="false" prefWidth="103.0" text="Last Donated" />
+            <TableColumn editable="false" prefWidth="96.0" text="Next Donation" />
+        </columns>
+      </TableView>
+<!--   </children>-->
+</AnchorPane>
